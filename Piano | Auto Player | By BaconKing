@@ -1,0 +1,33 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Piano | AutoPlayer Beta | By Bacon", "DarkTheme")
+
+local Tab = Window:NewTab("Autoplayer")
+local SectionTab1 = Tab:NewSection("Click Any Song This is still Beta")
+
+local Tab = Window:NewTab("Credits")
+local SectionTab2 = Tab:NewSection("Thx If Ur Reading the Credits True legend")
+
+SectionTab1:NewButton("Megalovania", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Buidhww/Buidhww/main/MainSongMegalovina.lua"))()
+end)
+
+SectionTab1:NewButton("MoonLightSoNata", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Buidhww/Buidhww/main/MainsongMoonLight.lua"))()
+end)
+
+SectionTab1:NewButton("Blood In The Water", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Buidhww/Buidhww/main/MainSongBloodWater"))()
+end)
+
+SectionTab1:NewButton("Never Gonna Give u Up", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Buidhww/Buidhww/main/MainsongRickroll.lua"))()
+end)
+
+SectionTab2:NewLabel("Owner By BaconKing Dont obey plz")
+
+SectionTab2:NewLabel("Putted Shuttle here for being god to fix vape file")
+
+SectionTab2:NewLabel("Subscribe To JN HH Gaming Hes Epic and cool")
+
+SectionTab2:NewLabel("THIS IS JUST A BETA MAY NOT WORK PROPERLY")
