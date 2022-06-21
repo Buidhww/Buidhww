@@ -11,7 +11,7 @@ local SectionTab2 = Tab:NewSection("!!!!NEW UPDATE!!!!")
 local Tab = Window:NewTab("Credits")
 local SectionTab3 = Tab:NewSection("Thx If Ur Reading the Credits True legend")
 
-SectionTab1:NewButton("Megalovania", "ButtonInfo", function()
+SectionTab1:NewButton("Gio Wind Theme", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Buidhww/Buidhww/main/MainMegalovinaV3.lua"))()
 end)
 
@@ -37,7 +37,11 @@ SectionTab2:NewLabel("Added Rush E")
 
 SectionTab2:NewLabel("Added ABCDEFU")
 
-SectionTab2:NewLabel("Fixed Megalovania")
+SectionTab2:NewLabel("Removed Megalovania")
+
+SectionTab2:NewLabel("Added Gio Wind Theme")
+
+SectionTab2:NewLabel("Tryna Fix Megalovania")
 
 SectionTab2:NewLabel("Move Able Gui Added")
 
